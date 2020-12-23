@@ -14,4 +14,4 @@ RUN unzip /docker-fastrcnn-main.zip
 EXPOSE 80
 
 #CMD ["python3", "/docker-detect-master/detect-app/dnn_ctrl.py", "/docker-detect-master/detect-app/data/pic.jpg"]
-CMD ["python3", "/docker-detect-master/detect-app/app.py"]
+#CMD ["python3", "/docker-detect-master/detect-app/app.py"]
