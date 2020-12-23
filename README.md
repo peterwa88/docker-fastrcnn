@@ -1,4 +1,4 @@
-This is a modified version from opencv-detect-ssd.
+This is a modified version from tprlab's opencv-detect-ssd.
 
 ## Server
 /docker-app folder contains Flask server source code to be executed in docker container
