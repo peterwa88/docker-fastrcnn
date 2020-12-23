@@ -1,4 +1,4 @@
-APP_PATH = "/docker-detect-master/detect-app"
+APP_PATH = "/docker-fastrcnn-main/detect-app"
 
 DNN_PATH = "/faster_rcnn_resnet50_coco_2018_01_28/frozen_inference_graph.pb"
 DNN_TXT_PATH = APP_PATH + "/faster_rcnn_resnet50_coco_2018_01_28.pbtxt"
