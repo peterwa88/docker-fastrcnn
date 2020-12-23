@@ -8,8 +8,8 @@ RUN pip3 install opencv_python
 ADD http://download.tensorflow.org/models/object_detection/faster_rcnn_resnet50_coco_2018_01_28.tar.gz /
 RUN tar -xvf /faster_rcnn_resnet50_coco_2018_01_28.tar.gz
 
-ADD https://github.com/peterwa88/docker-fastrcnn/archive/master.zip /
-RUN unzip /master.zip
+ADD https://github.com/peterwa88/docker-fastrcnn/archive/main.zip /
+RUN unzip /docker-fastrcnn-main.zip
 
 EXPOSE 80
 
