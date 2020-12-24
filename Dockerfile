@@ -5,7 +5,7 @@ RUN pip3 install protobuf
 RUN pip3 install requests
 RUN pip3 install opencv_python
 RUN apt update
-RUN apt install libgl1-mesa-glx
+RUN apt install -y libgl1-mesa-glx
 
 ADD http://download.tensorflow.org/models/object_detection/faster_rcnn_resnet50_coco_2018_01_28.tar.gz /
 RUN tar -xvf /faster_rcnn_resnet50_coco_2018_01_28.tar.gz
