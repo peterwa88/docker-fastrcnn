@@ -26,7 +26,7 @@ def inference(img):
     if net is None:
         logging.error("No net")
         return False, "No net"
-    net.setInput(cv.dnn.blobFromImage(img, 1.0/127.5, (300, 300), (127.5, 127.5, 127.5), swapRB=True, crop=False))
+    net.setInput(cv.dnn.blobFromImage(img, size=(300, 300), swapRB=True, crop=False))
     return True, net.forward()
 
 def build_detection(data, thr, rows, cols):
