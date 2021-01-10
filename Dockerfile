@@ -1,4 +1,4 @@
-FROM python:3.7-stretch
+FROM python:3.6-stretch
 
 RUN pip3 install flask
 RUN pip3 install protobuf
